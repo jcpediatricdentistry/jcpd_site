@@ -6,6 +6,7 @@ import { SmileIcon as Tooth } from "lucide-react"
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -62,7 +63,12 @@ export function Navigation() {
           </Link>
         </nav>
 
-        <button className="md:hidden text-gray-800">
+        
+
+        <button 
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          className="md:hidden text-gray-800"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
@@ -74,6 +80,29 @@ export function Navigation() {
           </svg>
         </button>
       </div>
+      {isMenuOpen && (
+        <div className="md:hidden mt-2 space-y-4 bg-white px-6 py-4 rounded-lg shadow-lg">
+          <Link href="#about" onClick={() => setIsMenuOpen(false)} className="block text-gray-700 hover:text-vibrant-blue">
+          About Us
+          </Link>
+          <Link href="#services" onClick={() => setIsMenuOpen(false)} className="block text-gray-700 hover:text-vibrant-blue">
+          Services
+          </Link>
+          <Link href="#reviews" onClick={() => setIsMenuOpen(false)} className="block text-gray-700 hover:text-vibrant-blue">
+          Reviews
+          </Link>
+          <Link href="#contact" onClick={() => setIsMenuOpen(false)} className="block text-gray-700 hover:text-vibrant-blue">
+          Contact
+          </Link>
+          <Link
+          href="#book"
+          onClick={() => setIsMenuOpen(false)}
+          className="inline-block w-full bg-vibrant-blue hover:bg-muted-blue text-gray-800 px-5 py-2 rounded-full text-center transition-colors font-medium"
+          >
+          Call Us
+          </Link>
+          </div>
+        )}
     </header>
   )
 }
