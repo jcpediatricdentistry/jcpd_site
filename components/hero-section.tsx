@@ -30,23 +30,23 @@ export function HeroSection() {
             </li>
           </p>*/}
           {/*<ul className="text-gray-600 text-left space-y-4 mb-8 max-w-lg mx-auto md:mx-0">*/}
-          <ul className="text-gray-600 text-center space-y-4 mb-8 max-w-lg mx-auto">
+          <ul className="text-gray-600 space-y-4 mb-8 max-w-lg mx-auto"">
 
-            <li className="flex items-start gap-3">
+            <li className="flex items-start gap-3 text-left">
               <div className="relative h-5 w-5 flex-shrink-0 mt-1">
                 <div className="absolute inset-0 rounded-full bg-vibrant-blue" />
                   <span className="absolute inset-0 flex items-center justify-center text-sm font-bold text-white">✓</span>
                 </div>
                 <span>Comprehensive dental care tailored for children of all ages — from toddlers to teens.</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-start gap-3 text-left">
               <div className="relative h-5 w-5 flex-shrink-0 mt-1">
                 <div className="absolute inset-0 rounded-full bg-vibrant-blue" />
                   <span className="absolute inset-0 flex items-center justify-center text-sm font-bold text-white">✓</span>
                 </div>
                 <span>Expert pediatric dental care in a warm, comforting environment created just for kids.</span>
             </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-start gap-3 text-left">
                 <div className="relative h-5 w-5 flex-shrink-0 mt-1">
                   <div className="absolute inset-0 rounded-full bg-vibrant-blue" />
                     <span className="absolute inset-0 flex items-center justify-center text-sm font-bold text-white">✓</span>
@@ -58,7 +58,7 @@ export function HeroSection() {
               </ul>
 
           {/*<div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">*/}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="#book"
               className="bg-vibrant-blue hover:bg-muted-blue text-gray-800 px-8 py-3 rounded-full transition-colors font-medium text-lg"
