@@ -9,7 +9,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <img
-                src="/logo/JCPD_footer.png"
+                src="/logo/JCPD_true_transparent.png"
                 alt="Johnson City Pediatric Dentistry Logo"
                 className="h-12 w-auto"
               />
