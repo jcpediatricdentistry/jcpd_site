@@ -29,7 +29,7 @@ export function Navigation() {
             <img
               src="/logo/JCPD_true_transparent.png"
               alt="Johnson City Pediatric Dentistry Logo"
-              className="h-12 w-auto"
+              className="h-20 w-auto"
             />
             {/*<img
               src={isScrolled ? "/logo/JCPD_white.png" : "/logo/JCPD_navigation.png"}

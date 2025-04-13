@@ -11,7 +11,7 @@ export function Footer() {
               <img
                 src="/logo/JCPD_true_transparent.png"
                 alt="Johnson City Pediatric Dentistry Logo"
-                className="h-12 w-auto"
+                className="h-20 w-auto"
               />
               {/*<Tooth className="h-8 w-8 text-vibrant-blue" />*/}
               <span className="font-semibold text-gray-800">
