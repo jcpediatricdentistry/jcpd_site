@@ -30,7 +30,7 @@ export function HeroSection() {
             </li>
           </p>*/}
           {/*<ul className="text-gray-600 text-left space-y-4 mb-8 max-w-lg mx-auto md:mx-0">*/}
-          <ul className="text-gray-600 space-y-4 mb-8 max-w-lg mx-auto"">
+          <ul className="text-gray-600 space-y-4 mb-8 max-w-lg mx-auto">
 
             <li className="flex items-start gap-3 text-left">
               <div className="relative h-5 w-5 flex-shrink-0 mt-1">

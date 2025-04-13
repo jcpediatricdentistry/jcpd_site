@@ -26,10 +26,15 @@ export function Navigation() {
         <Link href="/" className="flex items-center gap-4">
           {/*<Tooth className="h-8 w-8 text-muted-blue" />*/}
           {/*<div className="h-10 w-auto">*/}
-            <img
+            {/*<img
               src="/logo/JCPD_navigation.png"
               alt="Johnson City Pediatric Dentistry Logo"
               className="h-12 w-auto"
+            />*/}
+            <img
+              src={isScrolled ? "/logo/JCPD_white.png" : "/logo/JCPD_navigation.png"}
+              alt="Johnson City Pediatric Dentistry Logo"
+              className="h-12 w-auto transition-opacity duration-300"
             />
            <span className="font-bold text-lg sm:text-xl text-gray-800 leading-tight text-left">
             Johnson City<br />Pediatric Dentistry
