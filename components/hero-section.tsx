@@ -8,7 +8,7 @@ export function HeroSection() {
 
         <div className="text-center">
           <h1 className="font-bold text-gray-800 mb-4">
-            Where Little Smiles <span className="text-vibrant-blue">Shine Bright</span>
+            We take <span className="text-vibrant-blue">All Dental Insurance Plans!</span>
           </h1>
           {/*<p className="text-lg text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
             <li className="flex items-start gap-2">
@@ -29,7 +29,9 @@ export function HeroSection() {
               </span>
             </li>
           </p>*/}
-          <ul className="text-gray-600 text-left space-y-4 mb-8 max-w-lg mx-auto md:mx-0">
+          {/*<ul className="text-gray-600 text-left space-y-4 mb-8 max-w-lg mx-auto md:mx-0">*/}
+          <ul className="text-gray-600 text-center space-y-4 mb-8 max-w-lg mx-auto">
+
             <li className="flex items-start gap-3">
               <div className="relative h-5 w-5 flex-shrink-0 mt-1">
                 <div className="absolute inset-0 rounded-full bg-vibrant-blue" />
@@ -55,6 +57,7 @@ export function HeroSection() {
                 </li>
               </ul>
 
+          {/*<div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">*/}
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Link
               href="#book"

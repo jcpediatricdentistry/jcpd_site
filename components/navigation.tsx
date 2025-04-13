@@ -31,9 +31,8 @@ export function Navigation() {
               alt="Johnson City Pediatric Dentistry Logo"
               className="h-12 w-auto"
             />
-           <span className="font-bold text-xl text-gray-800 whitespace-nowrap">
-            Johnson City \
-            Pediatric Dentistry
+           <span className="font-bold text-lg sm:text-xl text-gray-800 leading-tight text-left">
+            Johnson City<br />Pediatric Dentistry
            </span>
         </Link>
 

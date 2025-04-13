@@ -14,9 +14,8 @@ export function Footer() {
                 className="h-12 w-auto"
               />
               {/*<Tooth className="h-8 w-8 text-vibrant-blue" />*/}
-              <span className="font-bold text-xl text-gray-800">
-                Johnson City \
-                Pediatric Dentistry</span>
+              <span className="font-semibold text-gray-800">
+                Johnson City<br />Pediatric Dentistry</span>
             </div>
             <p className="text-gray-600 mb-6 max-w-md">
               Providing specialized dental care for children in a friendly, comfortable environment designed just for
