@@ -25,7 +25,7 @@ export function Navigation() {
       <div className="container mx-auto flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           {/*<Tooth className="h-8 w-8 text-muted-blue" />*/}
-          <div className="h-10 w-auto"></div>
+          <div className="h-10 w-auto">
             <img
               src="/log/JCPD.png"
               alt="Johnson City Pediatric Dentistry Logo"
