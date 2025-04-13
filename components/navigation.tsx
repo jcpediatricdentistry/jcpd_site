@@ -34,7 +34,7 @@ export function Navigation() {
             <img
               src={isScrolled ? "/logo/JCPD_white.png" : "/logo/JCPD_navigation.png"}
               alt="Johnson City Pediatric Dentistry Logo"
-              className="h-12 w-auto transition-opacity duration-300"
+              className={`h-12 w-auto transition-all duration-300 ${isScrolled ? 'opacity-100' : 'opacity-90'}`}
             />
            <span className="font-bold text-lg sm:text-xl text-gray-800 leading-tight text-left">
             Johnson City<br />Pediatric Dentistry
