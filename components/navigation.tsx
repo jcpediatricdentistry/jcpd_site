@@ -31,8 +31,8 @@ export function Navigation() {
               alt="Johnson City Pediatric Dentistry Logo"
               className="h-full w-auto"
             />
-          </div>
-          <span className="font-bold text-xl text-gray-800">Johnson City Pediatric Dentistry</span>
+           <span className="font-bold text-xl text-gray-800">Johnson City Pediatric Dentistry</span>
+         </div>
         </Link>
 
         <nav className="hidden md:flex items-center space-x-8">
@@ -52,7 +52,7 @@ export function Navigation() {
             href="#book"
             className="bg-vibrant-blue hover:bg-muted-blue text-gray-800 px-5 py-2 rounded-full transition-colors font-medium"
           >
-            Book Appointment
+            Call Us
           </Link>
         </nav>
 
