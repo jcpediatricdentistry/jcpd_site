@@ -27,7 +27,7 @@ export function Navigation() {
           {/*<Tooth className="h-8 w-8 text-muted-blue" />*/}
           <div className="h-10 w-auto">
             <img
-              src="/log/JCPD.png"
+              src="/logo/JCPD.png"
               alt="Johnson City Pediatric Dentistry Logo"
               className="h-full w-auto"
             />
