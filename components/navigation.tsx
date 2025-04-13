@@ -58,7 +58,7 @@ export function Navigation() {
             href="#book"
             className="bg-vibrant-blue hover:bg-muted-blue text-gray-800 px-5 py-2 rounded-full transition-colors font-medium"
           >
-            Call Us
+            Book Appointment
           </Link>
         </nav>
 

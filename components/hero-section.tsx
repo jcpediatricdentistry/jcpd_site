@@ -78,8 +78,8 @@ export function HeroSection() {
           <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-vibrant-blue rounded-full opacity-30"></div>
           <div className="relative bg-white rounded-3xl shadow-lg overflow-hidden">
             <img
-              src="/placeholder.svg?height=500&width=600"
-              alt="Smiling dentist with child patient"
+              src="/insurance_logo/insurance_logo.png"
+              alt="insurancelogos"
               className="w-full h-auto"
             />
           </div>
