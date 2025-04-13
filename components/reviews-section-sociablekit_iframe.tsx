@@ -9,7 +9,7 @@ export default function ParentReviewsSection() {
           <iframe
             src="https://widgets.sociablekit.com/google-reviews/iframe/25543184"
             width="100%"
-            height="500"
+            height="800"
             style={{ border: 0 }}
             loading="lazy"
           />
