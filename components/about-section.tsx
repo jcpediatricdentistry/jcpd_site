@@ -12,11 +12,11 @@ export function AboutSection() {
       alt: "Our friendly dental team",
     },
     {
-      src: "/placeholder.svg?height=400&width=500&text=Kid-Friendly+Environment",
+      src: "/about/IMG_5214_front.JPG",
       alt: "Our kid-friendly treatment rooms",
     },
     {
-      src: "/placeholder.svg?height=400&width=500&text=Play+Area",
+      src: "/about/IMG_5214_front.JPG",
       alt: "Children's play area in our waiting room",
     },
   ]
