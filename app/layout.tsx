@@ -24,7 +24,7 @@ export const metadata: Metadata = {
         height: 630,
         alt: "Johnson City Pediatric Dentistry Logo",
       },
-    ],
+    ]},
   locale: "en_US",
   type: "website",
 }
