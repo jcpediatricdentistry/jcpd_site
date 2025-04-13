@@ -3,7 +3,9 @@ import Link from "next/link"
 export function HeroSection() {
   return (
     <section id="home" className="pt-32 pb-16 md:pt-40 md:pb-24 bg-gradient-to-b from-light-cyan to-white">
-      <div className="container mx-auto grid md:grid-cols-2 gap-8 items-center">
+      {/*<div className="container mx-auto grid md:grid-cols-2 gap-8 items-center">*/}
+      <div className="container mx-auto grid gap-12 items-center">
+
         <div className="text-center md:text-left">
           <h1 className="font-bold text-gray-800 mb-4">
             Where Little Smiles <span className="text-vibrant-blue">Shine Bright</span>
@@ -68,7 +70,7 @@ export function HeroSection() {
             </Link>
           </div>
         </div>
-        <div className="relative">
+        <div className="relative mt-12">
           <div className="absolute -top-10 -left-10 w-32 h-32 bg-light-blue rounded-full opacity-50"></div>
           <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-vibrant-blue rounded-full opacity-30"></div>
           <div className="relative bg-white rounded-3xl shadow-lg overflow-hidden">
