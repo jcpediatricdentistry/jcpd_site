@@ -8,7 +8,12 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <Tooth className="h-8 w-8 text-vibrant-blue" />
+              <img
+                src="/log/JCPD.png"
+                alt="Johnson City Pediatric Dentistry Logo"
+                className="h-12 w-auto"
+              />
+              {/*<Tooth className="h-8 w-8 text-vibrant-blue" />*/}
               <span className="font-bold text-xl text-gray-800">Johnson City Pediatric Dentistry</span>
             </div>
             <p className="text-gray-600 mb-6 max-w-md">
