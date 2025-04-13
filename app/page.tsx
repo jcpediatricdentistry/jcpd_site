@@ -1,4 +1,4 @@
-import ParentReviewsSection from "@/components/reviews-section-sociablekit_java"
+import ParentReviewsSection from "@/components/reviews-section-sociablekit_iframe"
 import { Navigation } from "@/components/navigation"
 import { HeroSection } from "@/components/hero-section"
 import { AboutSection } from "@/components/about-section"
