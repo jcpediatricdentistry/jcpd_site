@@ -56,7 +56,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <div className="font-medium text-gray-800">Email</div>
-                    <div className="text-gray-600">smile@johnsoncitypediatricdentistry.com</div>
+                    <div className="text-gray-600">jcpdschedule@gmail.com</div>
                   </div>
                 </div>
 

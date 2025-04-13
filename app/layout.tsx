@@ -9,7 +9,18 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Johnson City Pediatric Dentistry",
   description: "Specialized pediatric dental care in a friendly, comfortable environment designed just for kids.",
-    generator: 'v0.dev'
+  url: "https://jcpd-site.vercel.app",
+  siteName: "Johnson City Pediatric Dentistry",
+  images: [
+    {
+      url: "/logo/JCPD_true_transparent.png", 
+      width: 1200,
+      height: 630,
+      alt: "Johnson City Pediatric Dentistry Logo",
+    },
+  ],
+  locale: "en_US",
+  type: "website",
 }
 
 export default function RootLayout({
