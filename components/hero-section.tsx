@@ -76,7 +76,7 @@ export function HeroSection() {
         <div className="relative mt-12">
           <div className="absolute -top-10 -left-10 w-32 h-32 bg-light-blue rounded-full opacity-50"></div>
           <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-vibrant-blue rounded-full opacity-30"></div>
-          <div className="relative bg-white rounded-3xl shadow-lg overflow-hidden">
+          <div className="relative overflow-hidden">
             <img
               src="/insurance_logo/insurance_logo.png"
               alt="insurancelogos"
