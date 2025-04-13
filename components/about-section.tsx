@@ -4,11 +4,11 @@ export function AboutSection() {
   // Sample images for the slideshow
   const aboutImages = [
     {
-      src: "/public/about/IMG_5214_front.JPG",
+      src: "/about/IMG_5214_front.JPG",
       alt: "Our modern pediatric dental office",
     },
     {
-      src: "/public/about/IMG_5214_front.JPG",
+      src: "/about/IMG_5214_front.JPG",
       alt: "Our friendly dental team",
     },
     {
