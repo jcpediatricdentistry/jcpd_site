@@ -32,7 +32,8 @@ export function Navigation() {
               className="h-12 w-auto"
             />
            <span className="font-bold text-xl text-gray-800 whitespace-nowrap">
-            Johnson City Pediatric Dentistry
+            Johnson City \
+            Pediatric Dentistry
            </span>
         </Link>
 

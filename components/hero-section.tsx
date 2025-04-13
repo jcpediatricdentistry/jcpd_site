@@ -6,7 +6,7 @@ export function HeroSection() {
       {/*<div className="container mx-auto grid md:grid-cols-2 gap-8 items-center">*/}
       <div className="container mx-auto grid gap-12 items-center">
 
-        <div className="text-center md:text-left">
+        <div className="text-center">
           <h1 className="font-bold text-gray-800 mb-4">
             Where Little Smiles <span className="text-vibrant-blue">Shine Bright</span>
           </h1>
